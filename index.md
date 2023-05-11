@@ -10,8 +10,12 @@ is to be able to store integers as strings in case we want to include integers i
  split the "=" so that we get the string after the equals sign and add it to out "list". 
  For example `http://localhost:1982/add?s=hey` needs to add "hey" to our objects. Because we do not want anything before the
  "=", we split and just get "hey". Make sure to put "\n" so the string can go to the next line. 
+ 
+ 
  Here is an example:
+ 
  **Step 1**
+ 
  Compile the files
  
  
