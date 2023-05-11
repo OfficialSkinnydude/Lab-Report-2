@@ -17,6 +17,24 @@ is to be able to store integers as strings in case we want to include integers i
  **Step 1**
  
  Compile the files
+ ![Image](Terminal.png)
+ 
+ Compiling will give you the local host which would output this
+ 
+ ![Image](localhost.png)
+ 
+ After that, you `http://localhost:1982/add?s=hey there` to add the string
+ ![Image](added1.png)
+ 
+ After that, we can add an int as a string
+ ![Image](added2.png)
+ 
+ Then, if we just type the root path, we will get the strings we added
+ ![Image](
+ 
+ 
+ 
+ 
  
  
  
