@@ -30,7 +30,21 @@ is to be able to store integers as strings in case we want to include integers i
  ![Image](added2.png)
  
  Then, if we just type the root path, we will get the strings we added
- ![Image](
+ ![Image](localhost2.png)
+ 
+ # Bugs (Part 2)
+ 
+ For this part, I will chose the reverseInPlace
+ 
+ For reverseInPlace, the issue was that when it would the order, by the time we reached the halfway point, it would set the future
+ values to values from index 0,1,2... but since those indices were already changed, the value that we need to change would not be
+ the numbers we want.To fix this, we had to divide the length by 2 in order to only reach the half point. We then set a temporary
+ integer. We set the first index to the last index and after that, we set the last index to the temporary number so we change the
+ indices at the same time. 
+ 
+ Here is the code:
+ 
+
  
  
  
