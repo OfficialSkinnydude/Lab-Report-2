@@ -44,6 +44,13 @@ is to be able to store integers as strings in case we want to include integers i
  
  Here is the code:
  
+ ![Image](ReverseInPlace.png)
+ 
+ # Reflection
+ 
+ This past labs have ben interesting. One of the things that I learned the most was how to interact with URLs and even
+ make our own simple servers while being able to interact with the terminal and the browser.
+ 
 
  
  
